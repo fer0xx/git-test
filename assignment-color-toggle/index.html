@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>Assignment Color Toggle</title>
+</head>
+<body class="home">
+    <nav class="menu">
+        <button id="menu-button" type="button">
+            <img class="hamburger-icon" src="images/hamburger_menu.png" alt="Menu">
+        </button>
+        <div class="menu-content">
+            <ul id="menu-list">
+                <li class="home">
+                    <label>
+                        <input type="radio" name="color-radio" value="home" id="radio-home">
+                        Home
+                    </label>
+                </li>
+                <li class="red">
+                    <label>
+                        <input type="radio" name="color-radio" value="red" id="radio-red">
+                    </label>
+                </li>
+                <li class="orange">
+                    <label>
+                        <input type="radio" name="color-radio" value="orange" id="radio-orange">
+                    </label>
+                </li>
+                <li class="purple">
+                    <label>
+                        <input type="radio" name="color-radio" value="purple" id="radio-purple">
+                    </label>
+                </li>
+                <li class="green">
+                    <label>
+                        <input type="radio" name="color-radio" value="green" id="radio-green">
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="picked-color">
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
